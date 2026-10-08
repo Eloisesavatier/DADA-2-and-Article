@@ -5,7 +5,7 @@ output: github_document
 
 
 ```{r}
-read.csv("/home/rstudio/DADA-2/SraRunTable.csv", header = TRUE, sep = ",")
+metadata <- read.csv("/home/rstudio/Article-/SraRunTable.csv", header = TRUE, sep = ",")
 ```
 
 
@@ -14,7 +14,7 @@ library(dada2); packageVersion("dada2")
 ```
 
 ```{r}
-path <- "/home/rstudio/DADA-2/Data"
+path <- "/home/rstudio/Article-/data"
 list.files(path)
 ```
 
